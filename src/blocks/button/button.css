@@ -9,8 +9,20 @@
 }
 
 .button_request{
-    width: 215px;
+    padding: 15px 30px;
     margin: 25px auto;
     background: #2196f3;
     color: #fff;
+}
+
+.button_left{
+    position: absolute;
+    right: 10%;
+}
+
+@media (max-width:450px),(max-device-width:450px) {
+    .button_request{
+        padding: 15px;
+        font-size: 14px;
+    }
 }

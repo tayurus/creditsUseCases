@@ -12,3 +12,13 @@ body{
     padding: 0px;
     font-family: Montserrat;
 }
+
+.pB_400{
+    padding-bottom: 400px;
+}
+
+@media (max-width:650px),(max-device-width:650px) {
+    .pB_400{
+        padding: 0px;
+    }
+}

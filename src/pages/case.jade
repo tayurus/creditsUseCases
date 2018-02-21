@@ -6,16 +6,32 @@ html(lang="en")
 
         main
             .container
-                .row
+                .row.row_alignItems_top.row_spaceAround
                     .container.container_cases-categories
+                        h3.title__text.title__text_middle Use Cases
                         a.container__link_case(href="#") Медицина
                         a.container__link_case(href="#") Медицина
                         a.container__link_case(href="#") Медицина
                         a.container__link_case(href="#") Медицина
                         a.container__link_case(href="#") Медицина
                         a.container__link_case(href="#") Медицина
-                        
+                    
+                    
                     .container
-                        
+                        button.button.button_request.button_left(href="#") Go to list
+                        .container.container_case-inner
+                            
+                            .title
+                                h2.title__text Основной заголовок
+                            img(class="container__img_center container__img_main" src="http://calypso-str.ru/images/article/it-project/it_out.jpg" width="470px" height="300px")
+                            .container__text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit es
+                            button.button.button_request(href="#") Отправить заявку на внедение
+                            
+                            .row.row_spaceAround
+                                img(class="container__img_center" src="http://calypso-str.ru/images/article/it-project/it_out.jpg" width="150px" height="100px")
+                                img(class="container__img_center" src="http://calypso-str.ru/images/article/it-project/it_out.jpg" width="150px" height="100px")
+                            .container__text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit es
+                            
+                            button.button.button_request(href="#") Отправить заявку на внедение
     
         include ../blocks/footer/footer.jade

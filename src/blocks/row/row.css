@@ -8,3 +8,12 @@
 .row_alignItems_top{
     align-items: flex-start;
 }
+
+.row_spaceAround{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.row_spaceAround > img{
+    margin: 10px;
+}

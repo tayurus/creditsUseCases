@@ -5,5 +5,21 @@ html(lang="en")
         include ../blocks/header/header.jade
 
         main
-    
+            .title.title_yellow
+                h2.title__text.title__text_center Get a free consultation
+                h3.title__subtext.title__subtext_center Complete this short application to be assisted in the implementation of the Credits platform for your business
+            .container.container_form
+                .input
+                    .input__title Name:
+                    input(type="text", placeholder="your name")
+                    
+                .input
+                    .input__title Telephone, Email, Skype, Whatsapp etc:
+                    input(type="text" placeholder="way to contact with you")
+                    
+                .input
+                    .input__title Additional info:
+                    textarea(placeholder="way to contact with you")
+                    
+                button.button.button_request Отправить
         include ../blocks/footer/footer.jade
