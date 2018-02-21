@@ -1,0 +1,20 @@
+.title{
+    font-family: "Montserrat - Regular";
+    text-align: center;
+    max-width: 840px;
+    margin: auto;
+}
+
+.title__text{
+    line-height: 24px;
+    font-size: 28px;
+    padding: 0px 10px;
+    line-height: 30px;
+}
+
+
+.title__subtext{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0px 10px;
+}

@@ -1,0 +1,10 @@
+.row{
+    max-width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row_alignItems_top{
+    align-items: flex-start;
+}
